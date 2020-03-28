@@ -1,0 +1,22 @@
+.todo {
+  margin-bottom: 1rem;
+}
+
+.todo span.compleated {
+  text-decoration: line-through;
+}
+
+.todo label {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  background-color: #f3f3f3;
+  padding: 1rem;
+}
+
+.todo label input[type='text'] {
+  border: none;
+  width: 80%;
+}
